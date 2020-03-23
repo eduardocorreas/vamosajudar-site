@@ -8,9 +8,12 @@ export default function Hero() {
         <span className="font-bold"> o coração de muitas pessoas</span>
       </h1>
       <div className="text-center">
-        <button className="p-3 bg-white text-gray-900 rounded-full">
+        <a
+          href="/#"
+          className="p-3 pr-10 pl-10  bg-gray-200 shadow-lg text-gray-900 rounded-full"
+        >
           Quero colaborar agora
-        </button>
+        </a>
       </div>
     </div>
   )
