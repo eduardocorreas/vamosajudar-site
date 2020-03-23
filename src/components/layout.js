@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer className="mt-3 text-center bg-red-500 text-white p-5 text-sm">
-          <span className="font-bold">Vamos Ajudar</span> - Desenvolvido por
+          <span className="font-bold">Com</span> 🧡
           {` `}
           <a className="font-bold" href="https://www.flatcodesm.com">
             Flatcode
