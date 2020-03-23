@@ -1,5 +1,6 @@
 import React from 'react'
-import { contributors } from '../services/firebase'
+
+import ContributorList from './contributorList'
 
 export default function contributors() {
   return (
@@ -7,6 +8,7 @@ export default function contributors() {
       <h1 className="text-2xl text-red-500 text-center uppercase mb-5">
         Veja quem <span className="font-bold">já faz parte!</span>
       </h1>
+      <ContributorList />
     </div>
   )
 }

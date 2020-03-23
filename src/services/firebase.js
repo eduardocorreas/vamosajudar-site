@@ -15,4 +15,4 @@ firebase.initializeApp(firebaseConfig)
 firebase.analytics()
 
 const dataRef = firebase.database().ref()
-export const contributors = dataRef.child('contributors')
+export const contribDatabase = dataRef.child('contributors')

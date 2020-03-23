@@ -1,10 +1,6 @@
 import React from 'react'
-import firebase from 'firebase'
 
-export default function contactForm() {
-  function handleContributor(){
-    firebase
-  }
+export default function ContactForm() {
   return (
     <div className="bg-red-500 p-5 pl-10 pr-10 text-white">
       <div>
@@ -35,12 +31,12 @@ export default function contactForm() {
           placeholder="Insira o seu telefone"
           id="phone"
         />
-        <input
-          className="bg-white text-gray-400 focus:text-gray-900 focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal mb-1"
-          type="text"
-          placeholder="Qual é o seu instagram? "
-          id="instagram"
-        />
+        <button
+          type="submit"
+          className="p-3 w-full  bg-gray-200 shadow-lg text-gray-900 rounded-md"
+        >
+          Cadastrar
+        </button>
       </div>
     </div>
   )

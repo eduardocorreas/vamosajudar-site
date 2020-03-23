@@ -11,9 +11,12 @@ import PropTypes from 'prop-types'
 import Header from './header'
 import './layout.css'
 
+import { Provider } from 'react-redux'
+import store from '../store'
+
 const Layout = ({ children }) => {
   return (
-    <>
+    <Provider store={store}>
       <Header />
       <div>
         <main>{children}</main>
@@ -25,7 +28,7 @@ const Layout = ({ children }) => {
           </a>
         </footer>
       </div>
-    </>
+    </Provider>
   )
 }
 
